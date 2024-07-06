@@ -13,7 +13,7 @@ import { OurProcessComponent } from './pages/home/our-process/our-process.compon
 import { TeamComponent } from './pages/home/team/team.component';
 import { TestimonialsComponent } from './pages/home/testimonials/testimonials.component';
 import { ContactUsComponent } from './pages/home/contact-us/contact-us.component';
-import { PlattformsComponent } from './home/plattforms/plattforms.component';
+import { PlattformsComponent } from './pages/home/plattforms/plattforms.component';
 
 @NgModule({
   declarations: [

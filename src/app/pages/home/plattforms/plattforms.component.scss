@@ -1,0 +1,13 @@
+.plattform{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.plattforms_icons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    img{
+        width: 90px;
+    }
+}

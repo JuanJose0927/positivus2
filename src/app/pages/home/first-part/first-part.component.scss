@@ -1,0 +1,23 @@
+.firstpart_content_image{
+    display: flex;
+    justify-content: center;
+    img{
+        width: 240px;
+    }
+}
+
+.firstpart_content_info_button{
+    display: flex;
+    justify-content: center;
+    a,button{
+        width: 290px;
+        background-color: #191A23;
+        border-radius: 14px;
+        padding: 5px;
+        border: none;
+        font-size: 14px;
+        font-weight: 400;
+        color: white;
+        font-family: inherit;   
+    }
+}
