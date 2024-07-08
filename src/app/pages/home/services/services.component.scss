@@ -1,0 +1,118 @@
+.services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.services_content {
+    display: inherit;
+    flex-direction: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+}
+.services_content_title {
+    width: 132px;
+    background: #b9ff66;
+    padding: 4px;
+    border-radius: 7px;
+}
+
+.services_content_boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.services_content_boxes_box {
+    width: 300px;
+    height: 230px;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+
+.services_content_boxes_box_boxtext{
+    position: relative;
+    top: 15px;
+    left: 10px;
+    padding: 0;
+    margin: 0;
+
+}
+.services_content_boxes_box_boxtext_images{
+    display: flex;
+}
+.services_content_boxes_box_boxtext_images_arrow{
+    position: relative;
+    top: 100px;
+    left: 12px;
+    height: 37px;
+}
+.services_content_boxes_box_boxtext_images_lupe{
+    position: relative;
+    top: 20px;
+    left: 60px;
+}
+.services_content_boxes_box_boxtext_images_lupe--other{
+    left: 90px;
+}
+.services_content_boxes_box_boxtext_images_lupe--message{
+    top: 0;
+}
+
+.services_content_boxes_box--1{
+    background-color: #F3F3F3;
+}
+.services_content_boxes_box--2{
+    background-color: #B9FF66;
+}
+.services_content_boxes_box--3{
+    background-color: #191A23;
+}
+.services_content_boxes_box--4{
+    background-color: #F3F3F3;
+}
+.services_content_boxes_box--5{
+    background-color: #B9FF66;
+}
+.services_content_boxes_box--6{
+    background-color: #191A23;
+}
+.services_content_boxes_box--7{
+    background-color: #F3F3F3;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services_content_boxes_box_boxtext_textbutton{
+    position: relative;
+    top: -14px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    a,button{
+        position: relative;
+        right: 5px;
+        width: 200px;
+        padding: 8px;
+        color: white;
+        background-color: #191A23;
+        border: none;
+        font-size: 13px;
+        border-radius: 8px;
+    }
+}
+.services_content_boxes_box_boxtext--textlast{
+    width: 200px;
+    position: relative;
+    top: -10px;
+    left: 0;
+    font-size: 20px;
+}
+.services_content_boxes_box_boxtext_textbutton_text{
+    font-size: 14px;
+}
