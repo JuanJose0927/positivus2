@@ -14,6 +14,10 @@ import { TeamComponent } from './pages/home/team/team.component';
 import { TestimonialsComponent } from './pages/home/testimonials/testimonials.component';
 import { ContactUsComponent } from './pages/home/contact-us/contact-us.component';
 import { PlattformsComponent } from './pages/home/plattforms/plattforms.component';
+import { CarouselModule } from 'primeng/carousel';
+import { ButtonModule } from 'primeng/button';
+import { TagModule } from 'primeng/tag';
+
 
 @NgModule({
   declarations: [
@@ -32,7 +36,10 @@ import { PlattformsComponent } from './pages/home/plattforms/plattforms.componen
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CarouselModule,
+    ButtonModule,
+    TagModule
   ],
   providers: [],
   bootstrap: [AppComponent]

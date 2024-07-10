@@ -11,17 +11,22 @@
     align-items: center;
     flex-direction: column;
 }
-.case_studies_content_parragraph {
+.case_studies_content_title{
+    width: 160px;
+    background: #b9ff66;
+    padding: 4px;
+    border-radius: 7px;
     text-align: center;
 }
-.wrapper {
-    display: flex;
-    overflow-x: auto;
+
+.case_studies_content_parragraph {
+    text-align: center;
 }
 
 .case_studies_content_boxes {
     display: flex;
     gap: 20px;
+    flex-direction: column;
 }
 
 .case_studies_content_boxes_box {

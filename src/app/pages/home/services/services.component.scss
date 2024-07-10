@@ -18,6 +18,7 @@ $padBOX: 4px;
     background: #b9ff66;
     padding: 4px;
     border-radius: 7px;
+    text-align: center;
 }
 
 .services_content_boxes {
@@ -31,7 +32,7 @@ $padBOX: 4px;
     width: 300px;
     height: 322px;
     border-radius: 30px;
-    border: 1px solid black;
+    box-shadow: 0 3px 0 3px black;
 }
 
 .services_content_boxes_box_boxtext {
