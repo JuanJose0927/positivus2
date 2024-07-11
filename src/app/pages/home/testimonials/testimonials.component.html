@@ -1,0 +1,27 @@
+<div class="testimonials">
+    <div class="testimonials_content">
+        <h1 class="testimonials_content_title">Testimonials</h1>
+        <p class="testimonials_content_parragraph">Hear from Our Satisfied Clients: Read Our Testimonials to Learn More
+            about Our Digital Marketing Services</p>
+        <div class="testimonials_content_carousel" *ngIf="images of images.length > 0">
+            <img *ngFor="let image of images; let i = index" [src]="image.imageSrc" [alt]="image.imageAlt"
+                [ngClass]="{' image-active ' : selectedIndex === i} "
+                class="testimonials_content_carousel_image">
+
+            <div class="testimonials_content_carousel_dot" *ngIf="indicators">
+                <span class="testimonials_content_carousel_dot_span" *ngFor="let dot of images; let i = index"
+                    [ngClass]="{'active': selectedIndex === i}"
+                    (click) = "selectedImage(i)">
+                </span>
+            </div>
+            <button *ngIf="selectors" class="btn-carousel btn-prev">
+                <i class="fas fa-arrow-circle-left icon-carousel icon-prev"
+                (click)="onPrevClick()"></i>
+            </button>
+            <button *ngIf="selectors" class="btn-carousel btn-next">
+                <i class="fas fa-arrow-circle-right icon-carousel icon-next"
+                (click)="onNextClick()"></i>
+            </button>
+        </div>
+    </div>
+</div>

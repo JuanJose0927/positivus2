@@ -1,0 +1,101 @@
+.contact_us_content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.contact_us_content_title{
+    width: 191px;
+    background: #b9ff66;
+    padding: 4px;
+    border-radius: 7px;
+    text-align: center;
+}
+.contact_us_content_parragraph{
+    text-align: center;
+}
+
+.contact_us_content_form{
+    width: 390px;
+    height: 540px;
+    background-color: #F3F3F3;
+    display: flex;
+    border-radius: 45px;
+    box-shadow: 0 2px 0 2px black;
+    flex-direction: column;
+}
+.contact_us_content_form_writer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+.contact_us_content_form_writer_first{
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    label{
+        font-size: 20px;
+    }
+}
+.contact_us_content_form_writer_checkbox{
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+}
+.contact_us_content_form_writter_boxes{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 396px;
+    gap: 20px;
+    padding: 10px 30px 10px 30px;
+    position: relative;
+    top: 20px;
+}
+.contact_us_content_form_writer_boxes_box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contact_us_name_writer_boxes_box_input{
+    width: 330px;
+    height: 60px;
+    border-radius: 14px;
+    gap: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+.contact_us_name_writer_boxes_box_textarea{
+    width: 330px;
+    height: 132px;
+    border-radius: 14px;
+    border: none;
+    padding: 10px;
+    border: 1px solid black;
+}
+.contact_us_name_writer_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.contact_us_name_writer_button_but{
+    width: 390px;
+    height: 60px;
+    padding: 8px;
+    border-radius: 15px;
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+    background-color: #191A23;
+    color: white;
+    &:hover{
+        color: black;
+        background-color: #b9ff66;
+    }
+}
