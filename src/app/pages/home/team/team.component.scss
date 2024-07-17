@@ -62,7 +62,7 @@ hr {
         font-size: 15px;
     }
 }
-.team_content_button{
+.team_content_button {
     margin-top: 40px;
     width: 390px;
     height: 68px;
@@ -72,11 +72,48 @@ hr {
     font-size: 20px;
     font-weight: 400;
     color: white;
-    background-color: #191A23;
+    background-color: #191a23;
     cursor: pointer;
-    &:hover{
+    &:hover {
         background-color: #b9ff66;
-        color: black;;
-        transition: all .3s;
+        color: black;
+        transition: all 0.3s;
+    }
+}
+
+//Desktop Desing
+
+@media screen and (min-width: 720px) {
+    .team {
+        margin-top: 80px;
+    }
+    .team_content_first {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        margin-bottom: 80px;
+        h1 {
+            position: relative;
+            left: 140px;
+        }
+        p {
+            position: relative;
+            width: 400px;
+            text-align: start;
+            left: 157px;
+        }
+    }
+    .team_content_boxes {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .team_content_boxes_box {
+        width: 327px;
+    }
+    .team_content_boxes_box_info_first {
+        .team_content_boxes_box_info_first_img2 {
+            position: static;
+        }
     }
 }

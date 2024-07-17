@@ -58,3 +58,30 @@
     color: #b9ff66;
     font-weight: bold;
 }
+
+
+//Desktop Design
+
+@media screen and (min-width: 720px) {
+    .case_studies_content_first{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        gap: 20px;
+    }
+    .case_studies_content_boxes{
+        display: flex;
+        flex-direction: row;
+        gap: 0;
+        background-color: #191a23;
+        border-radius: 45px;
+        height: 320px;
+        align-items: center;
+    }
+    .case_studies_content_boxes_box{
+         width: 350px;
+         background: none;
+    }
+}

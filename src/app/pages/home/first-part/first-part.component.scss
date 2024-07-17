@@ -1,30 +1,105 @@
-.firstpart_content_image{
+.firstpart_content_image {
     display: flex;
     justify-content: center;
-    img{
+    img {
         width: 240px;
     }
 }
 
-.firstpart_content_info_button{
+.firstpart_content_info_button {
     display: flex;
     justify-content: center;
-    a,button{
+    a,
+    button {
         width: 290px;
-        background-color: #191A23;
+        background-color: #191a23;
         border-radius: 14px;
         padding: 5px;
         border: none;
         font-size: 14px;
         font-weight: 400;
         color: white;
-        font-family: inherit; 
+        font-family: inherit;
         cursor: pointer;
-        &:hover{
+        &:hover {
             background-color: #b9ff66;
             font-weight: bold;
-            transition: all .4s;
+            transition: all 0.4s;
             color: black;
+        }
+    }
+}
+
+//Desktop
+
+@media screen and (min-width: 720px) {
+    .firstpart_content_info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .firstpart_content_info_first {
+        display: flex;
+        justify-content: center;
+    }
+    .firstpart_content_info_title {
+        font-size: 60px;
+        width: 444px;
+    }
+    p {
+        width: 531px;
+        height: 112px;
+        text-align: center;
+    }
+    .firstpart_content_info p {
+        width: 530px;
+        font-size: 20px;
+
+    }
+    button {
+        position: relative;
+    }
+}
+@media screen and (min-width: 880px) {
+    .firstpart_content_info_first {
+        display: flex;
+    }
+    .firstpart_content_info_title {
+        width: 530px;
+        font-size: 60px;
+    }
+    .firstpart_content_info p {
+        width: 530px;
+        font-size: 20px;
+        position: relative;
+        right: 300px;
+        text-align: start;
+        bottom: 244px;
+    }
+    .firstpart_content_info_button{
+        display: flex;
+        position: relative;
+        right: 414px;
+        bottom: 250px;
+        a, button{
+            width: 264px;
+            height: 68px;
+        }
+    }
+}
+@media screen and (min-width: 1200px) {
+    .firstpart_content_info_first {
+        display: flex;
+    }
+    .firstpart_content_info_title {
+        width: 530px;
+        font-size: 60px;
+    }
+    .firstpart_content_image {
+        img {
+            width: 600px;
+            height: 515;
         }
     }
 }

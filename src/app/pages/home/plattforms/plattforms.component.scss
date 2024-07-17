@@ -13,3 +13,24 @@
         width: 65px;
     }
 }
+
+//Desktop
+
+@media screen and (min-width: 720px) {
+    .plattform{
+        margin-top: 40px;
+    }
+    .plattforms_icons{
+        gap: 50px;
+    }
+}
+@media screen and (min-width: 960px) {
+    .plattforms_icons{
+        gap: 100px;
+    }
+}
+@media screen and (min-width: 1100px) {
+    .plattforms_icons{
+        gap: 130px;
+    }
+}

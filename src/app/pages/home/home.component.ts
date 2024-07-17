@@ -8,23 +8,22 @@ import { Component } from '@angular/core';
 export class HomeComponent {
   images = [
     {
-      imageSrc:
-        'https://images.unsplash.com/photo-1460627390041-532a28402358?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
+      imageSrc: 'https://usa.bootcampcdn.com/wp-content/uploads/sites/108/2021/12/tes_gen_blog_post_071921_1233182206-1-800x412.jpg',
       imageAlt: 'nature1',
     },
     {
       imageSrc:
-        'https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
+        'https://bairesdev.mo.cloudinary.net/blog/2021/09/software-developer-1.jpg?tx=w_1920,q_auto',
       imageAlt: 'nature2',
     },
     {
       imageSrc:
-        'https://images.unsplash.com/photo-1640844444545-66e19eb6f549?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80',
+        'https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/wp-content/uploads/2023/06/person-at-computer.jpeg.jpg',
       imageAlt: 'person1',
     },
     {
       imageSrc:
-        'https://images.unsplash.com/photo-1490730141103-6cac27aaab94?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
+        'https://www.holycode.com/wp-content/uploads/2023/07/developer-looking-at-code-1.jpg',
       imageAlt: 'person2',
     },
   ]

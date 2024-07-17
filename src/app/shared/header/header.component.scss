@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     text-decoration: none;
@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-.header_nav{
+.header_nav {
     height: 100px;
     display: flex;
     justify-content: space-between;
@@ -14,61 +14,62 @@
     position: relative;
     bottom: 6px;
 }
-svg{
+svg {
     display: flex;
     position: relative;
     right: 20px;
     width: 20px;
     height: 20px;
 }
-.header_nav_logo_img{
+.header_nav_logo_img {
     width: 140px;
     margin-left: 20px;
 }
-.header_nav_bar-btn{
+.header_nav_bar-btn {
     font-size: 25px;
     cursor: pointer;
 }
-.header_nav_menu{
+.header_nav_menu {
     position: fixed;
     width: 100%;
     height: 0;
     top: 100px;
     left: 0;
-    background-color: rgba(0,0,0,.95);
+    background-color: rgba(0, 0, 0, 0.95);
     text-align: center;
-    transition: all .5s;
+    transition: all 0.5s;
 }
 
-.header_nav_menu li{
+.header_nav_menu li {
     display: none;
     line-height: 10px;
     margin: 50px 0;
-    transition: all .5s;   
+    transition: all 0.5s;
 }
 
-.header_nav_menu li a{
-    color: #fff;
+.header_nav_menu li a {
+    // color: #fff;
     font-size: 18px;
     text-transform: uppercase;
     font-weight: 600;
 }
-.header_nav_menu li a.header_nav_menu_item_active, .header_nav_menu li a:hover{
+.header_nav_menu li a.header_nav_menu_item_active,
+.header_nav_menu li a:hover {
     color: #b9ff66;
-    transition: .3s;
+    transition: 0.3s;
 }
 
-#check{
+#check {
     display: none;
 }
 
-#check:checked ~ .header_nav_menu{
+#check:checked ~ .header_nav_menu {
     height: 100vh;
 }
 #check:checked ~ .header_nav_menu li {
     display: block;
 }
-.header_nav_menu_item_button button{
+.header_nav_menu_item_button button {
     width: 180px;
     height: 30px;
     background-color: #fff;
@@ -77,10 +78,66 @@ svg{
     font-family: "Space Grotesk", sans-serif;
     font-style: italic;
     cursor: pointer;
-    &:hover{
+    &:hover {
         background-color: #b9ff66;
         font-weight: bold;
-        transition: all .4s;
+        transition: all 0.4s;
         color: black;
+    }
+}
+
+//Desktop design
+
+@media screen and (min-width: 720px) {
+    .header_nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 70px;
+    }
+    .header_nav_logo_img{
+        position: relative;
+        left: 94px;
+    }
+    svg {
+        display: none;
+    }
+    .header_nav_menu {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        color: black;
+        gap: 20px;
+    }
+    .header_nav_menu li {
+        display: flex;
+        position: relative;
+        bottom: 160px;
+        left: 60px;
+        a, a.header_nav_menu_item_active{
+            color: black;
+            font-size: 15x;
+        }
+    }
+    .header_nav_menu_item_button{
+        position: relative;
+        top: -30px;
+        button{
+            border: 2px solid black;
+            height: 68px;
+            border-radius: 14px;
+        }
+    }
+}
+@media screen and (min-width: 900px){
+    .header{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .header_nav{
+        display: flex;
+        gap: 100px;
+        width: 100%;
     }
 }

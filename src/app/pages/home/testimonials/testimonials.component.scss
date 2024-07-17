@@ -111,3 +111,28 @@
         opacity: 1;
     }
 }
+
+
+//Design Desktop
+@media screen and (min-width: 900px) {
+    .testimonials{
+        margin-top: 70px;
+    }
+    .testimonials_content{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .testiimonials_content_first{
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 142px;
+        gap: 20px;
+    }
+}

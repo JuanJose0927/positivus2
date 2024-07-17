@@ -48,3 +48,47 @@
 .our-working-process_content_cards_box_name {
     width: 180px;
 }
+
+//Desktop Design
+
+@media screen and (min-width: 720px) {
+    .our-process_working_content_first{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: flex-start;
+        margin-top: 40px;
+    }
+    .our-working-process_content_title{
+        height: 34px;
+        display: flex;
+        align-items: center;
+        left: 130px;
+        position: relative;
+        margin-bottom:  20px;
+    }
+    .our-working-process_content_info_parragraph{
+        display: flex;
+        position: relative;
+        left: 140px;
+    }
+    .our-working-process_content_title--2{
+        bottom: 0;
+    }
+    .our-working-process_content_cards{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .our-working-process_content_cards_box{
+        width: 520px;
+        height: 120px;
+    }
+    .our-working-process_content_cards_box_name{
+        text-align: center;
+    }
+}

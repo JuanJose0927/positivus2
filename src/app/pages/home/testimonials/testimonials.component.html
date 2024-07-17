@@ -1,8 +1,10 @@
 <div class="testimonials">
     <div class="testimonials_content">
-        <h1 class="testimonials_content_title">Testimonials</h1>
-        <p class="testimonials_content_parragraph">Hear from Our Satisfied Clients: Read Our Testimonials to Learn More
-            about Our Digital Marketing Services</p>
+        <div class="testiimonials_content_first">
+            <h1 class="testimonials_content_title">Testimonials</h1>
+            <p class="testimonials_content_parragraph">Hear from Our Satisfied Clients: Read Our Testimonials to Learn More
+                about Our Digital Marketing Services</p>
+        </div>
         <div class="testimonials_content_carousel" *ngIf="images of images.length > 0">
             <img *ngFor="let image of images; let i = index" [src]="image.imageSrc" [alt]="image.imageAlt"
                 [ngClass]="{' image-active ' : selectedIndex === i} "
