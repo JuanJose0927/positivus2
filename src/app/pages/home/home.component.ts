@@ -18,7 +18,7 @@ export class HomeComponent {
     },
     {
       imageSrc:
-        'https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/wp-content/uploads/2023/06/person-at-computer.jpeg.jpg',
+      'https://www.theforage.com/blog/wp-content/uploads/2022/09/what-is-a-web-developer.jpg',
       imageAlt: 'person1',
     },
     {

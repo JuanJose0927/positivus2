@@ -4,7 +4,12 @@
     align-items: center;
     flex-direction: column;
 }
-
+.our-process_working_content_first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .our-working-process_content_title {
     background: #b9ff66;
     padding: 4px;
@@ -58,6 +63,7 @@
         width: 100%;
         justify-content: flex-start;
         margin-top: 40px;
+        flex-direction: row;
     }
     .our-working-process_content_title{
         height: 34px;

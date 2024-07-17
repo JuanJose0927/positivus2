@@ -1,54 +1,60 @@
-.contact_us_content{
+.contact_us_content {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
-.contact_us_content_title{
+.contact_us_content_first{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.contact_us_content_title {
     width: 191px;
     background: #b9ff66;
     padding: 4px;
     border-radius: 7px;
     text-align: center;
 }
-.contact_us_content_parragraph{
+.contact_us_content_parragraph {
     text-align: center;
 }
 
-.contact_us_content_form{
+.contact_us_content_form {
     width: 390px;
-    height: 540px;
-    background-color: #F3F3F3;
+    height: 600px;
+    background-color: #f3f3f3;
     display: flex;
     border-radius: 45px;
     box-shadow: 0 2px 0 2px black;
     flex-direction: column;
-    img{
+    img {
         display: none;
     }
 }
-.contact_us_content_form_writer{
+.contact_us_content_form_writer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 20px;
     gap: 20px;
 }
-.contact_us_content_form_writer_first{
+.contact_us_content_form_writer_first {
     display: flex;
     justify-content: space-around;
     gap: 100px;
-    label{
+    label {
         font-size: 20px;
     }
 }
-.contact_us_content_form_writer_checkbox{
+.contact_us_content_form_writer_checkbox {
     display: flex;
     justify-content: space-around;
     justify-content: center;
     align-items: center;
 }
-.contact_us_content_form_writter_boxes{
+.contact_us_content_form_writter_boxes {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -57,12 +63,12 @@
     position: relative;
     top: 20px;
 }
-.contact_us_content_form_writer_boxes_box{
+.contact_us_content_form_writer_boxes_box {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-.contact_us_name_writer_boxes_box_input{
+.contact_us_name_writer_boxes_box_input {
     width: 330px;
     height: 60px;
     border-radius: 14px;
@@ -70,7 +76,7 @@
     border: 1px solid black;
     text-align: center;
 }
-.contact_us_name_writer_boxes_box_textarea{
+.contact_us_name_writer_boxes_box_textarea {
     width: 330px;
     height: 132px;
     border-radius: 14px;
@@ -78,24 +84,25 @@
     padding: 10px;
     border: 1px solid black;
 }
-.contact_us_name_writer_button{
+.contact_us_name_writer_button {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
 }
-.contact_us_name_writer_button_but{
+.contact_us_name_writer_button_but {
     width: 390px;
     height: 60px;
     padding: 8px;
+    margin-top: 20px;
     border-radius: 15px;
     border: none;
     font-size: 20px;
     font-weight: 400;
     cursor: pointer;
-    background-color: #191A23;
+    background-color: #191a23;
     color: white;
-    &:hover{
+    &:hover {
         color: black;
         background-color: #b9ff66;
     }
@@ -103,35 +110,57 @@
 
 //Desktop Design
 
-@media screen and (min-width: 900px){
-    .contact_us_content_first{
+@media screen and (min-width: 900px) {
+    .contact_us{
+        margin-top: 80px;
+    }
+    .contact_us_content_first {
         display: flex;
         align-items: center;
         width: 100%;
-        h1{
+        justify-content: flex-start;
+        flex-direction: row;
+        h1 {
             display: flex;
             position: relative;
             left: 135px;
         }
     }
-    .contact_us_content_parragraph{
+    .contact_us_content_parragraph {
         width: 300px;
         text-align: start;
         position: relative;
         left: 150px;
     }
-    .contact_us_content_form{
+    .contact_us_content_form {
         display: flex;
         width: 1065px;
         flex-direction: row;
+        margin-top: 80px;
+        height: 100%;
+        align-items: center;
         img{
             display: block;
-            display: flex;
-            left: 70px;
-            position: relative;
+            width: 500px;
+            height: 100%;
         }
     }
-    .contact_us_content_form_writer{
+    .contact_us_img {
+        display: block;
+        left: 70px;
+        position: relative;
+    }
+    .contact_us_img_rotated {
+        height: auto;
+        transform: rotate(180deg);
+        position: relative;
+        right: 400px;
+    }
+    .contact_us_content_form_writer {
         align-items: 0;
+    }
+    .contact_us_name_writer_button{
+        margin-top: 40px;
+        width: 360px;
     }
 }
