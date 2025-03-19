@@ -8,10 +8,6 @@ import { Component } from '@angular/core';
 export class HomeComponent {
   images = [
     {
-      imageSrc: 'https://usa.bootcampcdn.com/wp-content/uploads/sites/108/2021/12/tes_gen_blog_post_071921_1233182206-1-800x412.jpg',
-      imageAlt: 'nature1',
-    },
-    {
       imageSrc:
         'https://bairesdev.mo.cloudinary.net/blog/2021/09/software-developer-1.jpg?tx=w_1920,q_auto',
       imageAlt: 'nature2',
@@ -24,6 +20,16 @@ export class HomeComponent {
     {
       imageSrc:
         'https://www.holycode.com/wp-content/uploads/2023/07/developer-looking-at-code-1.jpg',
+      imageAlt: 'person2',
+    },
+    {
+      imageSrc:
+        'https://uop.scene7.com/is/image/phoenixedu/computer-programmers-using-computer-970x580.webp?fmt=webp-alpha&qlt=70&fit=constrain,1&wid=970',
+      imageAlt: 'person2',
+    },
+    {
+      imageSrc:
+        'https://res.cloudinary.com/highereducation/images/f_auto,q_auto/v1670878027/ComputerScience.org/how-to-become-a-comp-programmer/how-to-become-a-comp-programmer.jpg?_i=AA',
       imageAlt: 'person2',
     },
   ]

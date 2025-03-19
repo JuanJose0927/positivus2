@@ -1,23 +1,27 @@
-.testimonials_content{
+
+.testimonials_content {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
-.testiimonials_content_first{
+
+.testiimonials_content_first {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.testimonials_content_title{
+
+.testimonials_content_title {
     width: 191px;
     background: #b9ff66;
     padding: 4px;
     border-radius: 7px;
     text-align: center;
 }
-.testimonials_content_parragraph{
+
+.testimonials_content_parragraph {
     text-align: center;
 }
 
@@ -25,9 +29,10 @@
     position: relative;
     margin: auto;
     text-align: center;
-    width: 400px;
+    width: 450px;
     border-radius: 15px;
     box-shadow: 0 6px 12px #191a23;
+
     img {
         display: none;
         border-radius: 15px;
@@ -37,7 +42,6 @@
 .testimonials_content_carousel img.image-active {
     display: block;
     width: 100%;
-    height: 250px;
 }
 
 .testimonials_content_carousel_dot {
@@ -50,6 +54,7 @@
     padding: 0;
     margin-bottom: 16px;
 }
+
 .testimonials_content_carousel_dot_span {
     cursor: pointer;
     height: 13px;
@@ -67,6 +72,7 @@
 .testimonials_content_carousel_dot_span:hover {
     opacity: 1;
 }
+
 .testimonials_content_carousel_image {
     animation-name: testimonials_content_carousel_image;
     animation-duration: 1.5s;
@@ -87,16 +93,20 @@
     border: 0;
     cursor: pointer;
 }
+
 .btn-prev {
     left: 15px;
 }
+
 .btn-next {
     right: 15px;
 }
+
 .icon-carousel {
     opacity: 0.5;
     transition: all 0.15s ease;
 }
+
 .icon-carousel:hover {
     color: red;
     opacity: 0.9;
@@ -105,14 +115,17 @@
 .icon-carousel:active {
     opacity: 0.5;
 }
+
 .icon-prev,
 .icon-next {
     font-size: 35px;
 }
+
 @keyframes testimonials_content_carousel_image {
     from {
         opacity: 0.4;
     }
+
     to {
         opacity: 1;
     }
@@ -121,10 +134,11 @@
 
 //Design Desktop
 @media screen and (min-width: 900px) {
-    .testimonials{
+    .testimonials {
         margin-top: 70px;
     }
-    .testimonials_content{
+
+    .testimonials_content {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -132,7 +146,8 @@
         align-items: center;
         margin-top: 30px;
     }
-    .testiimonials_content_first{
+
+    .testiimonials_content_first {
         width: 400px;
         display: flex;
         justify-content: center;
